@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on threat-intel MA</title>
-    <link>//localhost:1313/categories/blog/</link>
-    <description>Recent content in Blog on threat-intel MA</description>
+    <title>Threat on threat-intel MA</title>
+    <link>//localhost:1313/tags/threat/</link>
+    <description>Recent content in Threat on threat-intel MA</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 05 Dec 2024 10:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/categories/blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Coming soon</title>
-      <link>//localhost:1313/posts/coming-soon/</link>
-      <pubDate>Thu, 05 Dec 2024 10:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/coming-soon/</guid>
-      <description>&lt;p&gt;Threat-intelligence.ma, coming soon&amp;hellip;&lt;/p&gt;</description>
-    </item>
+    <atom:link href="//localhost:1313/tags/threat/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Skull locker ransomware targetting morocco</title>
       <link>//localhost:1313/posts/skull-locker-2023/</link>
