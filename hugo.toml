@@ -1,6 +1,6 @@
 baseURL = "cti-ma.github.io"
 languageCode = 'en-us'
-title = 'threat-intel MA'
+title = 'Threat-intelligence.ma'
 theme = "mainroad"
 
 
@@ -19,6 +19,11 @@ theme = "mainroad"
   googleFontsLink = "https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" # Load Google Fonts
   # googleFontsLink = false
 
+  [Params.logo]
+  image = "img/TI.ma.main.svg"
+  title = false
+  subtitle = "Cyber Threat intelligence blog targeting Morocco"
+
 [Params.sidebar]
   home = "right" # Configure layout for home page
   widgets = ["recent", "categories", "taglist", "social"]
@@ -28,7 +33,7 @@ theme = "mainroad"
 
   [[menu.main]]
     name = "Home"
-    url = "/"
+    url = ""
     weight = 1
 
   [[menu.main]]

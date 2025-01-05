@@ -5,7 +5,6 @@ on:
     branches:
       - main
 
- 
   workflow_dispatch:
 
 permissions:
@@ -61,6 +60,16 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
+      - name: Notify Discord on Success
+        if: success()
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.webhook_1 }}
+        run: |
+          curl -H "Content-Type: application/json" \
+          -X POST \
+          -d '{\"content\": \"Build and Deploy succesful!\"}' \
+          $DISCORD_WEBHOOK_URL
+
   deploy:
     environment:
       name: github-pages
